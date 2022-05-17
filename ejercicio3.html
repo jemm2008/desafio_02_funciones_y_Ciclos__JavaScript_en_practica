@@ -23,9 +23,9 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">            
-            <div class="col-9 col-md-6 col-lg-5 mt-5 border border-dark border-5" style="background-color: darkgray; border-radius: 15px;">
+            <div class="col-9 col-sm-8 col-md-6 col-lg-5 col-xl-4 mt-5 ms-5 border border-dark border-5" style="background-color: darkgray; border-radius: 15px;">
                 <h1 class="text-center mt-4 mx-5 border border-danger border-2" style="background-color: rgb(255, 255, 109); border-radius: 10px;" >Calculadora</h1>
                 <h2 class="mt-4 ms-5"><span class="fw-bold" >Resultado: </span><span class="resultado ms-4 px-5" style="background-color: yellowgreen; border: 2px solid red"></span></h2>
                 
@@ -40,13 +40,13 @@
                 </div>
 
                 <div id="sumar_restar" class="mt-4" style="display: flex; justify-content: center;">
-                    <button id="btn_sumar" class="mb-5 btn btn-primary" type="button">Sumar</button>
-                    <button id="btn_resta" class="ms-4 mb-5 btn btn-danger" type="button">Restar</button>
+                    <button id="btn_sumar" class="mb-4 mb-md-5 btn btn-primary" type="button">Sumar</button>
+                    <button id="btn_resta" class="ms-4 mb-4 btn mb-md-5 btn-danger" type="button">Restar</button>
                 </div>
                 
             </div>
 
-            <div id="erroresDiv" class="col-5 border-danger border-3 mt-5 ms-4">
+            <div id="erroresDiv" class="col-11 col-md-5 border-danger border-3  mt-0 mt-md-5 ms-2 ms-md-2">
                 <h4 id="tituloErrores" class="mt-5 text-danger fw-bold"></h4>
                 <h5 id="val_1" class="mt-3"></h5>
                 <h5 id="val_2" class="mt-3"></h5>
